@@ -30,7 +30,7 @@ const registerUser = async (req, res) => {
     });
 
   } catch (error) {
-    res.status(500).json({ success: false, message: "Server error" }); // ✅ Better error handling
+    res.status(500).json({ success: false, message: "Server error" }); 
   }
 };
 
